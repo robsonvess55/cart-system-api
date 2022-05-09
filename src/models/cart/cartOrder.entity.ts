@@ -16,6 +16,9 @@ export class CartOrder extends BaseEntity {
   @Column("decimal")
   total: number;
 
+  @Column()
+  observation: string;
+
   @OneToOne(() => Product)
   @JoinColumn({ name: "product_id" })
   product: Product;
