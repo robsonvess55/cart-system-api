@@ -8,7 +8,7 @@ import { Product } from 'src/models/product/product.entity';
 import { ProductService } from 'src/services/product/product.service';
 
 
-
+//teste
 // @UseGuards(AuthGuard('jwt'))
 @Controller('/product')
 export class ProductController {
