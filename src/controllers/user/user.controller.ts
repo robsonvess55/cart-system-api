@@ -23,4 +23,5 @@ export class UserController {
   async store(@Request() request): Promise<User>{
     return this.userService.storeUser(request.body);
   }
+  
 }
